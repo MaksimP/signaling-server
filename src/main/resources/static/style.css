@@ -1,0 +1,35 @@
+.camera-box {
+    width: 760px;
+    height: 500px;
+    display:block;
+    vertical-align:top;
+    position:relative;
+    overflow:auto;
+}
+
+#localVideo {
+    width: 140px;
+    height: 110px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0 0 4px black;
+}
+
+#remoteVideo {
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    width: 640px;
+    height: 480px;
+    left:10px;
+    position:absolute;
+}
+
+.btn {
+    padding: 10px;
+}
+
+#numberRoom {
+    width: 45%;
+}

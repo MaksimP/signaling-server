@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="getUserMedia.js"></script>
+
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="camera-box">
+            <video id="localVideo" autoplay></video>
+            <video id="remoteVideo" autoplay></video>
+        </div>
+        <div>
+            <p id="outNumberRoom"></p>
+            <input type="text" id="numberRoom" placeholder="URL комнаты">
+            <button class="btn my-btn btn-info" id="enterRoom" onclick="enterRoom()">Войти в комнату</button>
+        </div>
+        <button class="btn my-btn btn-info" id="createRoom" onclick="createRoom()">Создать комнату для связи</button>
+        <button class="btn my-btn btn-info" id="hangUppCall" onclick="hangUpCall()">Закончить видеосвязь</button>
+    </div>
+</body>
+</html>

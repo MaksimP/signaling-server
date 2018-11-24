@@ -8,6 +8,6 @@ public class ControllerClient {
 
     @GetMapping("/")
     public String getClientPage() {
-        return "test";
+        return "index.html";
     }
 }
